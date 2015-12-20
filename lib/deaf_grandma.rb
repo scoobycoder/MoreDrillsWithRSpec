@@ -19,9 +19,9 @@ class DeafGrandma
 
 
   def speak(input)
-
-    #Implement your code here <<<<<<<<<
-
+    return 'BYE' if input.include? 'Bye'
+    return 'NOT SINCE 1964!' if input.include? '!'
+    'SPEAK UP SONNY!'
   end
 
   private
